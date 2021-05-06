@@ -1,5 +1,5 @@
 #include <iostream>
-
+//adding my comment for learning github
 const int INTCOLUMNS = 6;
 const int INTROWS = 12;
 
