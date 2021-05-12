@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+
+class Address
+{
+    public:
+        Address();
+        ~Address();
+        void print();
+        std::string toString();
+        void init();
+        void setFirst(std::string strpFirst);
+        void setLast(std::string strpLast);
+        void setPhoneNumber(std::string strpPhoneNumber);
+        std::string getFirst();
+        std::string getLast();
+        std::string getPhoneNumber();
+        
+
+
+    private:
+        std::string strFirst;
+        std::string strLast;
+        std::string strPhoneNumber;
+};
